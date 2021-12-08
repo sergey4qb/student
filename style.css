@@ -29,6 +29,14 @@ input[type=submit]:hover {
     transform: rotate(1turn) scale(1.4);
 
 } */
+.wrapper{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,57,121,0.2819327560125613) 49%, rgba(0,212,255,1) 100%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .form-register{
     display: flex;
@@ -62,12 +70,9 @@ input[type=submit]:hover {
     background-color: white;
     color: #000;
 }
-.wrapper{
-    height: 100vh;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,57,121,0.2819327560125613) 49%, rgba(0,212,255,1) 100%); 
+
+.form-field {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
-
