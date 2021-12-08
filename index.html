@@ -6,13 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style>
+    <div class="wrapper">
+        <!-- <form action="#" class="form-login">
+            <p class="title-input">Name</p>
+            <input type="text" name="name" placeholder="Your name">
+            <p class="title-input">Password</p>
+            <input type="password" name="password" placeholder="Your password">
+            <p class="title-input">Age</p>
+            <input type="text" name="age" placeholder="Your age">
+            <input type="submit" value="Login">
+        </form> -->
 
-    </style>
-    <div class="container">
-        <button class="btn btn-primary">das</button>
-    </div>
+        <form action="#" class="form-register">
+            <label for="formname">Name</label>
+            <input type="text" name="name" placeholder="Your name" id="formname" class="form-input" required>
+            <label for="formpass">Password</label>
+            <input type="password" name="password" placeholder="Your password" id="formpass" class="form-input" required>
+            <label for="formage">Age</label>
+            <input type="text" name="age" placeholder="Your age" id="formage" class="form-input" required>
+            <label for="">Choose your country</label>
+            <select name="country">
+              <option value="США">США</option>
+              <option value="Украина">Украина</option>
+              <option value="Канада">Канада</option>
+            </select>
+            <input type="submit" value="Login">
+        </form>
+    
+</div>
 </body>
 </html>
