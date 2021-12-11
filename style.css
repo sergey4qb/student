@@ -100,3 +100,14 @@ input[type=submit]:hover {
 .advantages-list .card-title{
     text-align: center;
 }
+
+/* ------------------presentation------------- */
+
+.main--presentation .presentation-text{
+    font-weight: 700;
+    text-align: justify;
+}
+.main--gallery{
+    margin-left: 0;
+    margin-right: 0;
+}
